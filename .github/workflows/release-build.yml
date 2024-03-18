@@ -50,7 +50,7 @@ jobs:
           git clone https://github.com/sbwml/v2ray-geodata
 
       - name: Building packages
-        uses: chardsonRi/gh-action-sdk@go1.22
+        uses: chardsonRi/gh-action-sdk@main
         env:
           ARCH: ${{ matrix.arch }}-openwrt-22.03
           FEEDNAME: packages_ci
