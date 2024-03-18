@@ -1,9 +1,8 @@
 name: Build
 
 on:
-  push:
-    tags:
-      - v5.**
+  repository_dispatch:
+  workflow_dispatch:
 
 jobs:
   build:
